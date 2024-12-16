@@ -17,7 +17,7 @@ const Security = () => {
                                 {securityItems.map((item, index) => (
                                     <li
                                         key={index}
-                                        className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom-xl max-lg:ml-4"
+                                        className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom_2xl max-lg:ml-4"
                                     >
                                         {item}
                                     </li>

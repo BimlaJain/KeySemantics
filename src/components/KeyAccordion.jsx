@@ -24,7 +24,7 @@ const FAQSection = () => {
                 <CommonHeading classList="!text-left" heading="Key Q&A" />
                 <ul className="list-disc pl-5 pt-7 text-gray-600 mb-6">
                     {keyAccordion.map((item, index) => (
-                        <li key={index} className="list-disc text-royal_blue text-base font-normal leading-custom-xl pb-2 max-lg:ml-4" >
+                        <li key={index} className="list-disc text-royal_blue text-base font-normal leading-custom_2xl pb-2 max-lg:ml-4" >
                             {item}
                         </li>
                     ))}
