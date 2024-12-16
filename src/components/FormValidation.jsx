@@ -37,7 +37,7 @@ const FormValidation = () => {
         <div className="flex justify-center">
           <form
             onSubmit={handleSubmit}
-            className="w-full max-w-md bg-transparent flex-col"
+            className="w-full bg-transparent flex-col"
           >
             {FORM_FIELDS.map((field) => (
               <div key={field.id} className="mb-4 max-w-[320px] mx-auto">
