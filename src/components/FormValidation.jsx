@@ -40,7 +40,7 @@ const FormValidation = () => {
             className="w-full bg-transparent flex-col"
           >
             {FORM_FIELDS.map((field) => (
-              <div key={field.id} className="mb-4 max-w-[320px] mx-auto">
+              <div key={field.id} className="mb-2 max-w-[320px] mx-auto">
                 <input
                   id={field.id}
                   type="text"

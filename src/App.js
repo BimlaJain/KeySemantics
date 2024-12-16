@@ -7,10 +7,12 @@ import FormValidation from './components/FormValidation'
 import Footer from './components/Footer'
 import KeySemantics from './components/KeySemantics'
 import KeyAccordion from './components/KeyAccordion'
+import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
-    <div>
+    <>
+    <>
       <Hero />
       <KeysemanticsWork />
       <KeySemantics />
@@ -19,7 +21,9 @@ const App = () => {
       <DataSecurity />
       <FormValidation />
       <Footer />
-    </div>
+    </>
+      <BackToTop />
+      </>
   )
 }
 
