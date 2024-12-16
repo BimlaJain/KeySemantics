@@ -19,27 +19,27 @@ export const LOTTIE_LIST = [
         description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!"
     }
 ];
-export const securityItems = [
+export const SECURITY_ITEMS = [
     " SaaS => we provide the search infrastructure so you can focus on your applications",
     "Hosted in a Swiss datacenter by Microsoft",
 ];
-export const searchItems = [
+export const SEARCH_ITEMS = [
     " API-First / Headless => integrate seamlessly with your applications",
     "Combine data from multiple sources",
     "Push / Crawl => Your choice: Push your data to our APIs or let our crawlers crawl your content"
 ];
- export const formFields = [
+export const FORM_FIELDS = [
     { id: 'name', label: 'Name', placeholder: 'Name', required: true },
     { id: 'email', label: 'Email', placeholder: 'Email', required: true },
     { id: 'company', label: 'Company', placeholder: 'Company', required: true },
     { id: 'phone', label: 'Phone (optional)', placeholder: 'Phone (optional)', required: false },
 ];
-export const keyAccordion = [
+export const KEY_ACCORDION = [
     " Let customers discover your content using AI - generated questions and answers",
     "Seamlessly integrated into the Semantic Search experience",
     "LLM - powered Question Answering"
 ];
-export const accordionItems = [
+export const ACCORDION_ITEMS = [
     {
         heading: "Accordion Heading #one",
         content: (
