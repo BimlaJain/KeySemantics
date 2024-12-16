@@ -37,7 +37,8 @@ module.exports = {
         "blurblue": "#24254B",
         "darkblue": "#111235",
         "voilet": "#7C7DB9",
-        "grey": "#C9CAD4"
+        "grey": "#C9CAD4",
+        "pink": "#f7f9fb"
       }
     },
   },
