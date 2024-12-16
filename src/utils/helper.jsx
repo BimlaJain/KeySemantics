@@ -1,6 +1,6 @@
-import LottieOne from "../lottie/file server (1).json"
-import LottieTwo from "../lottie/search (1).json"
-import LottieThree from "../lottie/server search (1).json"
+import LottieOne from "../lottie/LottieOne.json"
+import LottieTwo from "../lottie/LottieTwo.json"
+import LottieThree from "../lottie/LottieThree.json"
 
 export const LOTTIE_LIST = [
     {

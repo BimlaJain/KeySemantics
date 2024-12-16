@@ -1,7 +1,7 @@
 import React from 'react'
 import Lottie from 'react-lottie-player'
-import KeySemantic from '../lottie/infography (1).json'
-import SmallKetSemantic from '../lottie/mobile.json'
+import KeySemantic from '../lottie/KeySemanticsLottie.json'
+import SmallKetSemantic from '../lottie/KeySemanticMobileLottie.json'
 const KeySemantics = () => {
   return (
     <div className='container'>
