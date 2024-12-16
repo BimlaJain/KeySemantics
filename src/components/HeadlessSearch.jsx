@@ -13,7 +13,7 @@ const HeadlessSearch = () => {
                           <CommonHeading classList="!text-left" heading="Headless federated search"/>
                           <ul className="pb-6 max-w-[552px] max-lg:mx-auto lg:ml-4 pt-5">
                               {searchItems.map((item, index) => (
-                                  <li key={index} className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom_2xl max-lg:ml-4" >
+                                  <li key={index} className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom_3xl max-lg:ml-4" >
                                       {item}
                                   </li>
                               ))}

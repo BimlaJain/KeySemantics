@@ -12,7 +12,7 @@ module.exports = {
           sm: "640px",
           md: "768px",
           lg: "1024px",
-          xl: "1140px",
+          xl: "1200px",
         },
       },
       fontSize: {
@@ -27,7 +27,8 @@ module.exports = {
         custom_md: "133%",
         custom_lg: "142%",
         custom_xl: "225%",
-        custom_2xl: "175%"
+        custom_2xl: "175%",
+        custom_3xl:"190%",
       },
       colors: {
         royal_blue: "#191A42",

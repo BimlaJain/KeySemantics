@@ -12,7 +12,7 @@ const FAQSection = () => {
     };
 
     return (
-        <div className="pt-[148px] max-sm:pt-12 max-md:pt-16 max-lg:pt-20 justify-between flex flex-col md:flex-row items-center md:items-start bg-gray-50 container relative">
+        <div className="pt-[164px] max-sm:pt-12 max-md:pt-16 max-lg:pt-20 justify-between flex flex-col md:flex-row items-center md:items-start bg-gray-50 container relative">
             <div className="md:w-1/2 w-full flex justify-center mb-6 md:mb-0 sticky top-4">
                 <img
                     src="./assets/images/webp/girl.webp"
@@ -51,7 +51,7 @@ const FAQSection = () => {
                             )}</span>
                         </button>
                         {openAccordion === index && (
-                            <div className="py-4 text-royal_blue sm:text-base text-sm leading-custom_2xl">
+                            <div className="py-4 text-royal_blue sm:text-base text-sm leading-custom_3xl">
                                 {item.content}
                             </div>
                         )}
