@@ -51,7 +51,7 @@ const FAQSection = () => {
                             )}</span>
                         </button>
                         {openAccordion === index && (
-                            <div className="py-4 text-royal_blue">
+                            <div className="py-4 text-royal_blue sm:text-base text-sm leading-custom_2xl">
                                 {item.content}
                             </div>
                         )}
