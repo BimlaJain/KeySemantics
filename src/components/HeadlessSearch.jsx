@@ -13,7 +13,7 @@ const HeadlessSearch = () => {
                           <CommonHeading classList="!text-left" heading="Headless federated search"/>
                           <ul className="pb-6 max-w-[552px] max-lg:mx-auto lg:ml-4 pt-5">
                               {searchItems.map((item, index) => (
-                                  <li key={index} className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom-xl opacity-75 max-lg:ml-4" >
+                                  <li key={index} className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom-xl max-lg:ml-4" >
                                       {item}
                                   </li>
                               ))}
@@ -22,7 +22,7 @@ const HeadlessSearch = () => {
                       </div>
                   </div>
                   <div className='lg:w-6/12 w-full'>
-                      <img className='max-w-[600px] w-full max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/images/png/headless-person.png" alt="search" />
+                      <img className='max-w-[600px] w-full max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/images/webp/headless-person.webp" alt="search" />
                   </div>
               </div>
           </div>

@@ -8,7 +8,7 @@ const Security = () => {
             <div className="container">
                 <div className="flex justify-between max-lg:flex-wrap">
                     <div className='lg:w-5/12 w-full'>
-                        <img className='max-w-[570px] max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/images/png/data-security-host.png" alt="search" />
+                        <img className='max-w-[570px] max-sm:max-w-[330px] max-xl:max-w-[450px] max-lg:mx-auto max-lg:pb-6' src="./assets/images/webp/data-security-host.webp" alt="search" />
                     </div>
                     <div className='lg:w-5/12 w-full flex items-center max-lg:justify-center'>
                         <div>
@@ -17,7 +17,7 @@ const Security = () => {
                                 {securityItems.map((item, index) => (
                                     <li
                                         key={index}
-                                        className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom-xl opacity-75 max-lg:ml-4"
+                                        className="list-disc text-royal_blue pb-2 text-base font-normal leading-custom-xl max-lg:ml-4"
                                     >
                                         {item}
                                     </li>

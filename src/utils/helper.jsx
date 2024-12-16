@@ -52,12 +52,12 @@ export const accordionItems = [
                 </p>
                 <div className="grid grid-cols-2 gap-4 mt-4">
                     <img
-                        src="./assets/images/png/accordion-img.png"
+                        src="./assets/images/webp/accordion-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
                     <img
-                        src="./assets/images/png/accordion2-img.png"
+                        src="./assets/images/webp/accordion2-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
@@ -80,12 +80,12 @@ export const accordionItems = [
                 </p>
                 <div className="grid grid-cols-2 gap-4 mt-4">
                     <img
-                        src="./assets/images/png/accordion-img.png"
+                        src="./assets/images/webp/accordion-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
                     <img
-                        src="./assets/images/png/accordion2-img.png"
+                        src="./assets/images/webp/accordion2-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
@@ -108,12 +108,12 @@ export const accordionItems = [
                 </p>
                 <div className="grid grid-cols-2 gap-4 mt-4">
                     <img
-                        src="./assets/images/png/accordion-img.png"
+                        src="./assets/images/webp/accordion-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
                     <img
-                        src="./assets/images/png/accordion2-img.png"
+                        src="./assets/images/webp/accordion2-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
@@ -136,12 +136,12 @@ export const accordionItems = [
                 </p>
                 <div className="grid grid-cols-2 gap-4 mt-4">
                     <img
-                        src="./assets/images/png/accordion-img.png"
+                        src="./assets/images/webp/accordion-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />
                     <img
-                        src="./assets/images/png/accordion2-img.png"
+                        src="./assets/images/webp/accordion2-img.webp"
                         alt="Placeholder"
                         className="rounded-lg"
                     />

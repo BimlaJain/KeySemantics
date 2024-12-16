@@ -23,7 +23,13 @@ const FormValidation = () => {
     setFormData(initialFormState);
   };
   return (
-    <div className='lg:py-24 md:py-16 py-12 bg-royal_blue'>
+    <div className='lg:py-24 md:py-16 py-12 bg-royal_blue relative'>
+      <div className='absolute top-0 left-[12%]'>
+        <img src="./assets/images/webp/footer-icon1.webp" alt="footer-icon" />
+      </div>
+      <div className='absolute bottom-0 right-[12%]'>
+        <img src="./assets/images/webp/footer-icon2.webp" alt="footer-icon" />
+      </div>
       <h2 className='lg:text-custom_lg text-2xl font-bold text-white text-center leading-normal'>How does KeySemantics work?</h2>
       <p className='md:pt-5 pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-11 text-white text-center'>Request a demo for your team and let us show you how KeySemantics can help your company</p>
       <div className="flex justify-center">

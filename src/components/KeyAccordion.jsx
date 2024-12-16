@@ -15,7 +15,7 @@ const FAQSection = () => {
         <div className="pt-[148px] max-sm:pt-12 max-md:pt-16 max-lg:pt-20 justify-between flex flex-col md:flex-row items-center md:items-start bg-gray-50 container relative">
             <div className="md:w-1/2 w-full flex justify-center mb-6 md:mb-0 sticky top-4">
                 <img
-                    src="./assets/images/png/girl.png"
+                    src="./assets/images/webp/girl.webp"
                     alt="Illustration"
                     className="rounded-lg shadow-lg w-[600px]"
                 />
@@ -24,7 +24,7 @@ const FAQSection = () => {
                 <CommonHeading classList="!text-left" heading="Key Q&A" />
                 <ul className="list-disc pl-5 pt-7 text-gray-600 mb-6">
                     {keyAccordion.map((item, index) => (
-                        <li key={index} className="list-disc text-royal_blue text-base font-normal leading-custom-xl opacity-75 pb-2 max-lg:ml-4" >
+                        <li key={index} className="list-disc text-royal_blue text-base font-normal leading-custom-xl pb-2 max-lg:ml-4" >
                             {item}
                         </li>
                     ))}
