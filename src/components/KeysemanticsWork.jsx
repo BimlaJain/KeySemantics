@@ -16,7 +16,7 @@ const KeySementicWork = () => {
                                 animationData={item.lottietext}
                                 play
                             />
-                            <p className='text-darkblue max-w-[298px] mx-auto text-center pt-6 text-base leading-custom-xl'>
+                            <p className='text-darkblue max-w-[289px] mx-auto text-center pt-6 text-base leading-custom-xl'>
                                 {item.description}
                             </p>
                         </div>
