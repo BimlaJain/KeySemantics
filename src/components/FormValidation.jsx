@@ -56,7 +56,7 @@ const FormValidation = () => {
             <p className="text-custom-xs text-center text-voilet mt-4">
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
-            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white !sm:py-4 !sm:px-8 !py-3 !px-5 !mt-6 !mx-auto" NavButton=" Request a demo"/>
+            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white !sm:py-4 !sm:px-8 !py-3 !px-4 !mt-6 !mx-auto" NavButton=" Request a demo"/>
           </form>
         </div>
       </div>

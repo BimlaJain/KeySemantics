@@ -11,7 +11,7 @@ const FAQSection = () => {
     };
 
     return (        
-        <div className="xl:pt-[164px] pt-12 md:pt-16 lg:pt-20 justify-between flex flex-col md:flex-row items-center md:items-start  container relative">
+        <div className="xl:pt-[164px] pt-12 md:pt-16 lg:pt-20 justify-between flex flex-col md:flex-row items-center md:items-start container relative">
             <div className="md:w-1/2 w-full flex justify-center mb-6 md:mb-0 md:sticky top-4">
                 <img
                     src="./assets/images/webp/girl.webp"
