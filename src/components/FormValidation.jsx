@@ -41,12 +41,7 @@ const FormValidation = () => {
           >
             {FORM_FIELDS.map((field) => (
               <div key={field.id} className="mb-2 max-w-[320px] mx-auto">
-                <input
-                  id={field.id}
-                  type="text"
-                  placeholder={field.placeholder}
-                  required={field.required}
-                  value={formData[field.id]}
+                <input id={field.id} type="text" placeholder={field.placeholder} required={field.required} value={formData[field.id]}
                   onChange={handleChange}
                   className="w-full py-4 pl-5 mx-auto text-white bg-blurblue placeholder-voilet rounded-full focus:outline-none"
                 />
@@ -56,7 +51,7 @@ const FormValidation = () => {
             <p className="text-custom-xs text-center text-voilet mt-4">
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
-            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white !sm:py-4 !sm:px-8 !py-3 !px-4 !mt-6 !mx-auto" NavButton=" Request a demo"/>
+            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white !sm:py-4 !sm:px-8 !py-3 !px-4 !mt-6 !mx-auto" NavButton=" Request a demo" />
           </form>
         </div>
       </div>

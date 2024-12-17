@@ -4,10 +4,10 @@ import { ACCORDION_ITEMS, KEY_ACCORDION } from "../utils/helper";
 import CommonHeading from "../common/CommonHeading";
 
 const FAQSection = () => {
-    const [openAccordion, setOpenAccordion] = useState(null);
+    const [openAccordion, setOpenAccordion] = useState();
 
     const toggleAccordion = (index) => {
-        setOpenAccordion(openAccordion === index ? null : index);
+        setOpenAccordion(openAccordion === index ? "" : index);
     };
 
     return (        
@@ -41,16 +41,15 @@ const FAQSection = () => {
                             <img
                                 src="./assets/images/svg/up.svg"
                                 alt={openAccordion === index ? "Collapse" : "Expand"}
-                                className={`h-5 w-5 transition-transform duration-500 transform ${openAccordion === index ? "rotate-180" : "rotate-0"
+                                className={`size-5 transition-transform duration-1000 transform ${openAccordion === index ? "rotate-180" : "rotate-0"
                                     }`}
                             />
                         </button>
                         <div
-                            className={`transition-[max-height] duration-500 ease-in-out overflow-hidden ${openAccordion === index
+                            className={`transition-all duration-1000 ease-in-out overflow-auto sm:overflow-hidden ${openAccordion === index
                                     ? "max-h-[500px] opacity-100"
                                     : "max-h-0 opacity-0"
-                                }`}
-                        >
+                                }`}>
                             <div className="py-4 px-2 text-royalblue sm:text-base text-sm leading-custom-3xl">
                                 {item.content}
                             </div>
