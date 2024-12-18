@@ -26,10 +26,10 @@ const FormValidation = () => {
   return (
     <div className=' bg-royalblue'>
       <div className="container xl:py-24 md:py-16 lg:py-20 py-12 relative">
-        <div className='absolute top-0 left-[3%] xl:block hidden'>
+        <div className='absolute top-0 left-[3%] xl:block hidden pointer-events-none'>
           <img src="./assets/images/webp/footer-icon1.webp" alt="footer-icon" />
         </div>
-        <div className='absolute bottom-1 right-[3%] xl:block hidden'>
+        <div className='absolute bottom-1 right-[3%] xl:block hidden pointer-events-none'>
           <img src="./assets/images/webp/footer-icon2.webp" alt="footer-icon" />
         </div>
         <h2 className='lg:text-custom-lg text-2xl font-bold text-white text-center leading-normal'>How does KeySemantics work?</h2>

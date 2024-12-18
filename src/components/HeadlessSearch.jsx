@@ -11,7 +11,7 @@ const HeadlessSearch = () => {
                       <CommonCard classList="!text-left" heading="Headless federated search" NavButton="Get a demo" list={SEARCH_ITEMS} />
                   </div>
                   <div className='lg:w-6/12 w-full'>
-                      <img className='max-w-[600px] w-full max-sm:max-w-[330px] max-xl:max-w-[450px] xl:h-[337px] max-lg:mx-auto max-lg:pb-6' src="./assets/images/webp/headless-person.webp" alt="search" />
+                      <img className='max-w-[600px] w-full max-sm:max-w-[330px] max-xl:max-w-[450px] xl:h-[337px] pointer-events-none max-lg:mx-auto max-lg:pb-6' src="./assets/images/webp/headless-person.webp" alt="search" />
                   </div>
               </div>
           </div>
