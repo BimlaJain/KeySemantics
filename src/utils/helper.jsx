@@ -42,114 +42,42 @@ export const KEY_ACCORDION_LIST = [
 export const ACCORDION_ITEMS_LIST = [
     {
         heading: "Accordion Heading #one",
-        content: (
-            <>
-                <p className="pb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <div className="grid grid-cols-2 gap-4 mt-4">
-                    <img
-                        src="./assets/images/webp/accordion-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                    <img
-                        src="./assets/images/webp/accordion2-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                </div>
-                <p className="mt-4">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </>
-        ),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+        tittle: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        images: [
+            "./assets/images/webp/accordion-img.webp",
+            "./assets/images/webp/accordion2-img.webp",
+        ],
+        content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
     {
         heading: "Accordion Heading #two",
-        content: (
-            <>
-                <p className="pb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <div className="grid grid-cols-2 gap-4 mt-4">
-                    <img
-                        src="./assets/images/webp/accordion-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                    <img
-                        src="./assets/images/webp/accordion2-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                </div>
-                <p className="mt-4">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </>
-        ),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+        tittle: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        images: [
+            "./assets/images/webp/accordion-img.webp",
+            "./assets/images/webp/accordion2-img.webp",
+        ],
+        content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
     {
         heading: "Accordion Heading #three",
-        content: (
-            <>
-                <p className="pb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <div className="grid grid-cols-2 gap-4 mt-4">
-                    <img
-                        src="./assets/images/webp/accordion-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                    <img
-                        src="./assets/images/webp/accordion2-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                </div>
-                <p className="mt-4">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </>
-        ),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+        tittle: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        images: [
+            "./assets/images/webp/accordion-img.webp",
+            "./assets/images/webp/accordion2-img.webp",
+        ],
+        content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
     {
         heading: "Accordion Heading #four",
-        content: (
-            <>
-                <p className="pb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <div className="grid grid-cols-2 gap-4 mt-4">
-                    <img
-                        src="./assets/images/webp/accordion-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                    <img
-                        src="./assets/images/webp/accordion2-img.webp"
-                        alt="Placeholder"
-                        className="rounded-lg"
-                    />
-                </div>
-                <p className="mt-4">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </>
-        ),
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+        tittle: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+        images: [
+            "./assets/images/webp/accordion-img.webp",
+            "./assets/images/webp/accordion2-img.webp",
+        ],
+        content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
 ];

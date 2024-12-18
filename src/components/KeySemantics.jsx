@@ -4,6 +4,7 @@ import KeySemantic from '../lottie/KeySemanticsLottie.json'
 import SmallKetSemantic from '../lottie/KeySemanticMobileLottie.json'
 const KeySemantics = () => {
   return (
+    <div className='key-bg'>
     <div className='container'>
           <Lottie className='sm:block hidden'
               loop
@@ -15,7 +16,8 @@ const KeySemantics = () => {
         animationData={SmallKetSemantic}
         play
       />
-    </div>
+      </div>
+      </div>
   )
 }
 

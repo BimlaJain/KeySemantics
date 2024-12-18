@@ -33,7 +33,7 @@ const FormValidation = () => {
           <img src="./assets/images/webp/footer-icon2.webp" alt="footer-icon" />
         </div>
         <h2 className='lg:text-custom-lg text-2xl font-bold text-white text-center leading-normal'>How does KeySemantics work?</h2>
-        <p className='md:pt-5 pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-11 text-white text-center'>Request a demo for your team and let us show you how KeySemantics can help your company</p>
+        <p className='md:pt-5 pt-3 font-normal text-base lg:pb-[64px] md:pb-14 pb-8 text-white text-center'>Request a demo for your team and let us show you how KeySemantics can help your company</p>
         <div className="flex justify-center">
           <form
             onSubmit={handleSubmit}
@@ -51,7 +51,7 @@ const FormValidation = () => {
             <p className="text-custom-xs text-center text-voilet mt-4">
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
-            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white !sm:py-4 !sm:px-8 !py-3 !px-4 !mt-6 !mx-auto" NavButton=" Request a demo" />
+            <CommonButton classList="hover:!bg-white hover:!text-skyblue !bg-skyblue !text-white  !py-3 !px-8 !mt-6 !mx-auto" NavButton=" Request a demo" />
           </form>
         </div>
       </div>
