@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CommonButton from "../common/CommonButton";
-import { ACCORDION_ITEMS, KEY_ACCORDION } from "../utils/helper";
+import { ACCORDION_ITEMS_LIST, KEY_ACCORDION_LIST } from "../utils/helper";
 import CommonHeading from "../common/CommonHeading";
 
 const FAQSection = () => {
@@ -22,7 +22,7 @@ const FAQSection = () => {
             <div className="md:w-1/2 w-full md:pl-8">
                 <CommonHeading classList="!text-left" heading="Key Q&A" />
                 <ul className="list-disc pl-5 pt-7 text-royalblue mb-6">
-                    {KEY_ACCORDION.map((item, index) => (
+                    {KEY_ACCORDION_LIST.map((item, index) => (
                         <li
                             key={index}
                             className="list-disc text-royalblue sm:text-base text-sm font-normal leading-custom-2xl pb-2 max-lg:ml-4"
@@ -31,7 +31,7 @@ const FAQSection = () => {
                         </li>
                     ))}
                 </ul>
-                {ACCORDION_ITEMS.map((item, index) => (
+                {ACCORDION_ITEMS_LIST.map((item, index) => (
                     <div key={index} className="border-y border-grey max-w-[552px] overflow-hidden">
                         <button
                             onClick={() => toggleAccordion(index)}

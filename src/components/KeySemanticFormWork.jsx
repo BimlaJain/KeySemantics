@@ -1,5 +1,5 @@
 import React from 'react'
-import { FORM_FIELDS } from '../utils/helper'
+import { FORM_FIELDS_LIST } from '../utils/helper'
 import { useState } from 'react'
 import CommonButton from '../common/CommonButton';
 
@@ -39,7 +39,7 @@ const FormValidation = () => {
             onSubmit={handleSubmit}
             className="w-full bg-transparent flex-col"
           >
-            {FORM_FIELDS.map((field) => (
+            {FORM_FIELDS_LIST.map((field) => (
               <div key={field.id} className="mb-2 max-w-[320px] mx-auto">
                 <input id={field.id} type="text" placeholder={field.placeholder} required={field.required} value={formData[field.id]}
                   onChange={handleChange}

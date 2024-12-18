@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import KeysemanticsWork from './components/KeysemanticsWork'
 import DataSecurity from './components/DataSecurity'
 import HeadlessSearch from './components/HeadlessSearch'
-import FormValidation from './components/FormValidation'
+import KeySematicFormWork from './components/KeySemanticFormWork'
 import Footer from './components/Footer'
 import KeySemantics from './components/KeySemantics'
 import KeyAccordion from './components/KeyAccordion'
@@ -19,7 +19,7 @@ const App = () => {
       <KeyAccordion/>
       <HeadlessSearch/>
       <DataSecurity />
-      <FormValidation />
+      <KeySematicFormWork/>
       <Footer />
     </>
       <BackToTop />
