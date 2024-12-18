@@ -8,7 +8,7 @@ const CommonCard = ({ heading, list, NavButton, classList }) => {
             <CommonHeading heading={heading} />
             <ul className="pb-6 max-w-[552px] max-lg:mx-auto lg:ml-4 pt-5 ">
                 {list && list.map((item, index) => (
-                    <li key={index} className="list-disc text-royalblue pb-2 text-base font-normal leading-custom-3xl max-lg:ml-4">
+                    <li key={index} className="list-disc text-royalblue pb-2 sm:text-base text-sm font-normal leading-custom-3xl max-lg:ml-4">
                         {item}
                     </li>
                 ))}

@@ -25,7 +25,7 @@ const FAQSection = () => {
                     {KEY_ACCORDION.map((item, index) => (
                         <li
                             key={index}
-                            className="list-disc text-royalblue text-base font-normal leading-custom-2xl pb-2 max-lg:ml-4"
+                            className="list-disc text-royalblue sm:text-base text-sm font-normal leading-custom-2xl pb-2 max-lg:ml-4"
                         >
                             {item}
                         </li>
