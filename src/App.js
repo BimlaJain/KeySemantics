@@ -1,27 +1,25 @@
 import React from 'react'
 import Hero from './components/Hero'
-import KeysemanticsWork from './components/KeysemanticsWork'
 import DataSecurity from './components/DataSecurity'
 import HeadlessSearch from './components/HeadlessSearch'
-import KeySematicFormWork from './components/KeySemanticFormWork'
+import KeySematicForm from './components/KeySemanticForm'
 import Footer from './components/Footer'
 import KeySemantics from './components/KeySemantics'
 import KeyAccordion from './components/KeyAccordion'
 import BackToTop from './common/BackToTop'
+import KeySementicWork from './components/KeySemanticWork'
 
 const App = () => {
   return (
     <>
-    <>
       <Hero />
-      <KeysemanticsWork />
+      <KeySementicWork />
       <KeySemantics />
       <KeyAccordion/>
       <HeadlessSearch/>
       <DataSecurity />
-      <KeySematicFormWork/>
+      <KeySematicForm/>
       <Footer />
-    </>
       <BackToTop />
       </>
   )

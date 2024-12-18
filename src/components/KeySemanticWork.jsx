@@ -7,7 +7,7 @@ const KeySementicWork = () => {
     return (
         <div className='xl:pt-24 pt-12 md:pt-16 lg:pt-20'>
             <div className="container">
-                <CommonHeading heading="How does KeySemantics work?"/>
+                <CommonHeading heading="How does KeySemantics work?" />
                 <div className="flex justify-between max-lg:flex-wrap max-lg:justify-center max-lg:gap-10 lg:pt-14 md:pt-12 pt-8">
                     {LOTTIE_LIST.map((item, index) => (
                         <div key={index}>
